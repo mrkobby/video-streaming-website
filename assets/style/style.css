@@ -1,0 +1,60 @@
+/* Copyrighted @mTc*//*Panda*/
+/* ---- --- --- ---- GENERAL --- ---- ---- ----*/
+
+body {font-family: 'Open Sans', sans-serif;font-weight: 400;font-size: 1em;color: #8a8683;background-color:#ffffff;}
+img {max-width: 95%;}
+a:visited {color: #9f6c47;text-decoration: none;}
+
+/* --- ----- ---- -- NAVIGATION --- ---- ---- ---- */
+.menu {position:fixed;top:0px;width:100%; height:auto; background:url("whiteSleeve.png");z-index:100;}
+#logo {text-align: center;margin: 10px 0;}
+#nav {text-align: right;margin: 70px 0 0 0;}
+.navigation{float: right;list-style: none;margin: 0;}
+.navigation a:link {color:  #8a8683;text-decoration: none;}
+.navigation a:hover {color: #84b3af;text-decoration: none;}
+.navigation li{float: left;padding:0 0 0 44px;color:#8a8683;}
+.navigation li:hover{cursor:pointer;color: #84b3af;}
+.navigation .active{cursor:pointer;color:#006699;font-weight:bold;}
+.container{width: 90%; /*width: 1000px;*/max-width: 1000px;margin: auto;}
+
+/* ------- ------ -- COMPUTER ----- ----- -----*/
+.grid_1 { width: 23.5%; } 
+.grid_2 { width: 50.5%; } 
+
+.grid_1,.grid_2 {margin: 0 2% 1% 0;float: left;display: block;}
+.omega{margin-right:0;}
+
+/***************************************************************/
+/******************                            *****************/
+/*------------------------ Video Boxes - Home --------------------------*/
+#txt{margin-left:10px;color: B4B4B4;font-size: 1.1em;text-decoration:none;margin-top:150px;}
+#recm{height:auto;margin-top:6px;border:#dedede 1px solid;}
+#music{height:auto;margin-top:6px;border:#dedede 1px solid;}
+#movies{height:auto;margin-top:6px;border:#dedede 1px solid;}
+#tv{height:auto;margin-top:6px;border:#dedede 1px solid;}
+/*----------------------------- Video Dimensions - Home----------------------------------*/
+#vid_dm{height: 60px;width: 110px;border:black 1.5px solid;margin:4.4px;display:inline-block;}
+.vid_txt a:link {font-size:0.7em;text-decoration:none;}
+.vid_txt a:hover{color:red;text-decoration:none;}
+/*------------------------------ Video Stream ------------------------------------------*/
+.streamBox{height: 362px;width: 645px;border:grey 2px solid;margin:150px 0px 0px 5px;background-attachment: fixed;}
+.related_vid{height:auto;width: 255px;border:black 1.5px solid;float:right;margin:150px 55px 0px 0px;}
+
+/***************************************************************/
+/***************************************************************/
+
+/* --- ---- --- VIEW ON TABLET ---- ---- ----*/
+@media screen and (max-width: 1024px) {
+
+#logo {width: 100%;text-align: center;}
+#nav {width:100%;text-align:center;margin:10px 0;}
+.navigation{width: 100%;float: center;list-style: none;margin: 0;padding:0;}
+.navigation li{float: left;width:25%;padding:0;}
+
+/* --- ---- -- VIEW ON MOBILE ---- ---- -- */
+@media screen and (max-width: 480px) {
+
+#logo {width: 100%;text-align: center;}
+#nav {width:100%;margin:5px 0px;}
+.navigation{width: 100%;float: left;list-style: none;margin: 0;padding:0;}
+.navigation li{float: left;width:25%;}
